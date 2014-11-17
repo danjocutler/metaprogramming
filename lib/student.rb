@@ -1,11 +1,9 @@
 class Student
 
+	attr_accessor :badges
+
 	def initialize
 		@badges = []
-	end
-
-	def award(badge)
-		@badges << badge
 	end
 
 	def method_missing(name)
@@ -16,6 +14,10 @@ class Student
       super
     end
   end
+  
+	# def award(badge)
+	# 	@badges << badge
+	# end
 
 	# def respond_to?(name)
 	#  	name =~ /^has_.+?\?/ ? true : super
