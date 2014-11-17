@@ -23,6 +23,6 @@ class Student
 
 end
 
-s = Student.new
-s.award(unixoid)
-s.has_unixoid?
+# s = Student.new
+# s.award(unixoid)
+# s.has_unixoid?
