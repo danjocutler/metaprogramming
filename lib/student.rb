@@ -14,17 +14,4 @@ class Student
       super
     end
   end
-  
-	# def award(badge)
-	# 	@badges << badge
-	# end
-
-	# def respond_to?(name)
-	#  	name =~ /^has_.+?\?/ ? true : super
-	# end
-
 end
-
-# s = Student.new
-# s.award(unixoid)
-# s.has_unixoid?

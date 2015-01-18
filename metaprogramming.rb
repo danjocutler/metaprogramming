@@ -15,5 +15,3 @@ end
 
 duck = Duck.new
 duck.quack(2){puts "quack"}
-# duck.kill
-# duck.to_s
